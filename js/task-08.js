@@ -7,10 +7,10 @@ function onBtnClick(event) {
         alert('All fields must be filled');
     } else {
         const user = {
-            email.email.value,
+            email: email.value,
             password: password.value,
         };
         console.log(user);
-        form.reset();
     }
+    form.reset();
 }
